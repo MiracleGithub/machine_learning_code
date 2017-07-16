@@ -5,10 +5,7 @@ import numpy as np
 
 from numpy.polynomial.polynomial import polyval
 
-def y_hat(x, w):
-    """
-    Linear regression hypothesis: y_hat = X.w
-    """   
+def y_hat(x, w):#here we are setting the hypothesis y_hat =X.w
     return x.dot(w)
     
 def polyMatrix(v, order):       
